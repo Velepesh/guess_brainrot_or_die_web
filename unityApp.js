@@ -203,20 +203,8 @@ const unityApp = {
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "Guess Italian Brainrot or Die",
-            productVersion: "0.1",
-            showBanner: (msg, type) => {
-                switch (type) {
-                    case 'error': {
-                        console.error(msg);
-                        break;
-                    }
-                    default: {
-                        console.warn(msg);
-                        break;
-                    }
-                }
-            },
-        };
+            productVersion: "0.1"
+          };
 
         // By default Unity keeps WebGL canvas render target size matched with
         // the DOM size of the canvas element (scaled by window.devicePixelRatio)
