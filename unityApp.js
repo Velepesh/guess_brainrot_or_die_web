@@ -197,9 +197,9 @@ const unityApp = {
         const loaderUrl = buildUrl + "/bb0d9ecdb05db3e84da20bd14a4f84dc.loader.js";
         const config = {
             arguments: [],
-            dataUrl: buildUrl + "/493a45a4a28e222b465035beb324d128.data",
-            frameworkUrl: buildUrl + "/c79a3e1508972b6c3ef1d7c2f86fe521.framework.js",
-            codeUrl: buildUrl + "/4c927aed9bf9286b45abcd5cfcd11a09.wasm",
+            dataUrl: buildUrl + "/0f2453122ebf3c7d8d093e3927602c0d.data.br",
+            frameworkUrl: buildUrl + "/9df4dedbcd54a6a9ddab65d2d4d5886a.framework.js.br",
+            codeUrl: buildUrl + "/44ead3e5df3341a5e07eaa53c76abfd1.wasm.br",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "Guess Italian Brainrot or Die",
