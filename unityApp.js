@@ -197,14 +197,26 @@ const unityApp = {
         const loaderUrl = buildUrl + "/bb0d9ecdb05db3e84da20bd14a4f84dc.loader.js";
         const config = {
             arguments: [],
-            dataUrl: buildUrl + "/a0c7fa506a0d147a0043e4d3f845531a.data.br",
-            frameworkUrl: buildUrl + "/9df4dedbcd54a6a9ddab65d2d4d5886a.framework.js.br",
-            codeUrl: buildUrl + "/44ead3e5df3341a5e07eaa53c76abfd1.wasm.br",
+            dataUrl: buildUrl + "/493a45a4a28e222b465035beb324d128.data",
+            frameworkUrl: buildUrl + "/c79a3e1508972b6c3ef1d7c2f86fe521.framework.js",
+            codeUrl: buildUrl + "/4c927aed9bf9286b45abcd5cfcd11a09.wasm",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "Guess Italian Brainrot or Die",
-            productVersion: "0.1"
-          };
+            productVersion: "0.1",
+            showBanner: (msg, type) => {
+                switch (type) {
+                    case 'error': {
+                        console.error(msg);
+                        break;
+                    }
+                    default: {
+                        console.warn(msg);
+                        break;
+                    }
+                }
+            },
+        };
 
         // By default Unity keeps WebGL canvas render target size matched with
         // the DOM size of the canvas element (scaled by window.devicePixelRatio)
