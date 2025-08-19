@@ -194,12 +194,12 @@ const unityApp = {
         const progressBarFull = document.querySelector("#unity-progress-bar-full");
 
         const buildUrl = "Build";
-        const loaderUrl = buildUrl + "/9853637125e801e9aae48e78dbbdcfca.loader.js";
+        const loaderUrl = buildUrl + "/bb0d9ecdb05db3e84da20bd14a4f84dc.loader.js";
         const config = {
             arguments: [],
-            dataUrl: buildUrl + "/517873b315c5b9cbd3b01c5413f4bd2f.data.unityweb",
-            frameworkUrl: buildUrl + "/2ef5d6373f684195595ea5509c32ba59.framework.js.unityweb",
-            codeUrl: buildUrl + "/a9816026f0b1dbfcce144927b86a3ad1.wasm.unityweb",
+            dataUrl: buildUrl + "/670ea741b9b846b9e9ac4b27ec9f6252.data.br",
+            frameworkUrl: buildUrl + "/7e66ee64cff61d611d4bc749029a7dd2.framework.js.br",
+            codeUrl: buildUrl + "/b8678070946f6f8bdb1d3f07f30ee6bc.wasm.br",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "Guess Italian Brainrot or Die",
